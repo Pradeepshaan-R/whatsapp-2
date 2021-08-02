@@ -1,10 +1,11 @@
 import { Circle } from "better-react-spinkit";
+import Image from "next/image";
 
 function Loading() {
   return (
     <center style={{ display: "grid", placeItems: "center", height: "100vh" }}>
       <div>
-        <img
+        <Image
           src="https://www.freepnglogos.com/uploads/whatsapp-logo-app-png-4.png"
           alt="Loading"
           height={200}
